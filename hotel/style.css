@@ -76,6 +76,11 @@ a.reserva {
 	padding: 5px 10px;
 	float: right;
 }
+a.reserva:hover{
+	color: #a29750;
+	background-color: #fdf6be;
+	transition: 0.5s;
+}
 .menu .locais {
 	float: left;
 	line-height: 2.1em;
@@ -98,6 +103,8 @@ a.reserva {
 }
 .menu #navegacao ul li a:hover{
 	background-color: #fdf6be;
+	transition: 0.5s;
+	border-radius: 10px;
 }
 #depoimento{
 	position: absolute;
@@ -164,4 +171,7 @@ p{
 #beneficios li:hover{
 	background: #f6f3d6;
 	cursor: pointer;
+	transition: 0.5s;
+	border-radius: 10px;
+
 }
